@@ -1,12 +1,2 @@
-10.0;Shared;RDuval
-10.0;Shared;PChojka
-10.0;Shared;William
-125.0;Big shared;RDuval
-125.0;Big shared;PChojka
-125.0;Big shared;William
-125.0;Big shared;Johnson
-125.0;Big shared;Bertrand
-125.0;Big shared;A
-125.0;Big shared;Z
-125.0;Big shared;Pol
-4.0;Litlle share;RDuval
+1000;Label;RDuval;"PChojka;William;RDuval"
+1000;COUCOU;RDuval; PChojka;William;Johnson;RDuval 
