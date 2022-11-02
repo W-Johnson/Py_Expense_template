@@ -61,10 +61,10 @@ def new_expense(*args):
     #     print(equallySpent)
     # Writing the informations on external file
     with open('expense_report.csv', 'a', newline='') as csvfile:
-        spamwriter = csv.writer(csvfile, delimiter=';',
-                                quotechar=' ', quoting=csv.QUOTE_MINIMAL)
+        spamwriter = csv.writer(csvfile, delimiter=';', quotechar='|',
+                                quoting=csv.QUOTE_MINIMAL)
         spamwriter.writerow(
-            [infos['amount'], infos['label'], infos['spender'][0], ';'.join(infos['otherSpenders'])])
+            [infos['amount'], infos['label'], infos['spender'][0], ','.join(infos['otherSpenders'])])
 
     print("Expense Added ! " + str(infos))
     return True
